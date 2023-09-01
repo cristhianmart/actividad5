@@ -42,7 +42,7 @@ def ejercicio4():
     estatura = float(input("Tu estatura en metro: "))
     indice = kilos / estatura ** 2
     print("tu indice de masa corporal es de: ", indice)
-    rta = int(input("¿quieres que te interprete los resultado? 1 para SÍ cualquier otra tecla para NO "))
+    rta = int(input("¿quieres que te interprete los resultado? 1 para SÍ, cualquier otra tecla para NO "))
     if (rta == 1):
         if (indice <= 18.5):
             print ("el era paco el flaco... estas considerado como de 'bajo peso', toca darte complejo B")
