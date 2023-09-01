@@ -57,7 +57,7 @@ def ejercicio4():
         
 def ejercicio5():
     print("ejecucion del ejercicio 5")
-    print("Hola, soy el detector de palíndromos, si no sabes que es un palindromo ¡goglealo!")
+    print("Hola, soy el detector de palabras palíndromas, si no sabes que es un palindromo ¡goglealo!")
 
     palabra = input("ingresa la palabra a adivinar: ")
     inverso = ""
