@@ -1,4 +1,4 @@
-
+import random
 def ejercicio1():
     print("ejecucion del ejercicio 1: bienvenido al verificador de mayoria de edad versión Colombia")
     edad = int(input("Ingresa tu edad por favor "))
@@ -16,7 +16,8 @@ def ejercicio2():
     print("ejecucion del ejercicio 2")
     print("!oh no¡ acabas de activar el ciclo infinito, si no adivinas el numero correcto del 1 al 10, nunca podras salir de esta opción")
     adivinador = 0
-    while adivinador != 7:
+    adivina= random.randint(1, 10)
+    while adivinador != adivina:
         adivinador = int(input("Comienza el juego, ingresa el numero que crees que detendra el bucle "))
 
 def ejercicio3():
